@@ -39,12 +39,12 @@ header div .hero .right{
 }
 
 .hero .right h6{
-	font-size: 1.4rem;
+	font-size: 1.4vw;
 	color: var(--primary);
 	margin-bottom: 0.5rem;
 }
 .hero .right h1{
-	font-size: 3.5rem;
+	font-size: 3.5vw;
 	font-weight: 100;
 	line-height: 1;
 	margin-bottom: 2rem;
