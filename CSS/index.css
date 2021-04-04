@@ -18,7 +18,8 @@ div#circle{
 header{
 	background-color: var(--dark);
 	/*clip-path: polygon(0 0,100% 0,100% 95%,70% 87%,0 95%);*/
-	height: 800px;
+	height: 50vw;
+	width: 100vw;
 }
 
 *{
