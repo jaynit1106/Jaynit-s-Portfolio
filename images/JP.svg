@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184.136" height="184" viewBox="0 0 184.136 46.36">
+  <defs>
+    <filter id="JP" x="0" y="0" width="225" height="223" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feFlood flood-color="#ff39bb" flood-opacity="0.831"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#JP)">
+    <text id="JP-2" data-name="JP" transform="translate(111 140)" fill="#f7f1f1" stroke="#ff39bb" stroke-width="2" font-size="28" font-family="Lovelo-LineBold, Lovelo Line" font-weight="700"><tspan x="-59.248" y="0">JP</tspan></text>
+  </g>
+</svg>
