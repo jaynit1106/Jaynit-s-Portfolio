@@ -2,16 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Jaynit's Portfolio</title>
+	
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equip="X-UA compatible" content="ie=edge">
-
+	<title>Jaynit's Portfolio</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./CSS/index.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	<script src="script.js"></script>
+	<script src="./JS/index.js"></script>
 	<script >
 			$(document).ready(function(){
 				var entries=[
@@ -64,43 +65,59 @@
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<nav class="flex items-center">
-				<div class="left flex  items-center">
-					<div class="branding">
-						<img src="./images/logo.svg" alt="" style="margin-right: 600px">	
-					</div>
-					<div class="flex">
-						<a href="index.html">HOME</a>
-						<a href="About.html">ABOUT  </a>
-						<a href="#2">WORK  </a>						
+	<div class="main-site">
+		<button id="main-drawer" class="drawer">
+			<img src="./images/hamberger.svg" alt="">
+		</button>
+		<div class="mobile-nav">
+			<button >
+				<img class="times" src="./images/times.svg" alt="">
+			</button>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="About.html">ABOUT</a></li>
+				<li><a href="#">WORK</a></li>
+			</ul>
+			
+		</div>
+		<header>
+			<div class="container">
+				<nav id="main-nav" class="flex items-center justify-between">
+					<div class="left flex  items-center">
+						<div class="branding">
+							<img src="./images/logo.svg" alt="" style="margin-right: 100px" >	
+						</div>
+						<div>
+							<a href="index.html">HOME</a>
+							<a href="About.html">ABOUT  </a>
+							<a href="#2">WORK  </a>						
+							
+						</div>
 						
 					</div>
-					
-				</div>
-				<div class ="right">
-					<button class="btn btn-primary">Contact</button>
-				</div>
-			</nav>
-			<div class="hero flex items-center">
-				<div id="circle" class="left"> 
-					
-				</div>
-				<div class="right">
-					<h6>Jaynit Patel</h6>
-					<h1>I'm a Full Stack <span>Developer</span> </h1>
-					<p>Hello guys I am Jaynit Patel currently studying
-					in second year in IIIT Dharwad pusrsuing B Tech in 
-					Computer Science.</p>
-					<div>
-						<button class="btn btn-secondary">DOWNLOAD CV</button>
+					<div class ="right">
+						<button class="btn btn-primary">Contact</button>
+					</div>
+				</nav>
+				<div class="hero flex items-center">
+					<div id="circle" class="left"> 
+						
+					</div>
+					<div class="right">
+						<h6>Jaynit Patel</h6>
+						<h1>I'm a Full Stack <span>Developer</span> </h1>
+						<p>Hello guys I am Jaynit Patel currently studying
+						in second year in IIIT Dharwad pusrsuing B Tech in 
+						Computer Science.</p>
+						<div>
+							<button class="btn btn-secondary">DOWNLOAD CV</button>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		
-		
-	</header>
+			
+			
+		</header>
+	</div>
 </body>
 </html>
