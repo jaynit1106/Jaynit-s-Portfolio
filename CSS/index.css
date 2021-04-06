@@ -9,7 +9,7 @@
 }
 body{
 	font-family: 'Poppins',sans-serif;
-	background-color: var(--dark);
+	/*background-color: var(--dark);*/
 }
 div#circle{
 	position: absolute;
@@ -23,11 +23,7 @@ header{
 	width: 100vw;*/
 
 }
-@media(max-width: 1024px){
-	header #main-nav{
-		display: none;
-	}
-}
+
 @media(min-width: 1024px){
 	.main-site #main-drawer{
 		display: none;
@@ -105,7 +101,7 @@ header{
 header div .hero .right{
 	color: var(--pure);
 	margin-left: 700px;
-	margin-top: 220px;
+	margin-top: 250px;
 }
 
 .hero .right h6{
@@ -130,4 +126,55 @@ header nav .left a{
 	color: var(--pure);
 	margin-right: 2rem;
 	text-decoration: none;
+}
+@media(max-width: 480px){
+	header #main-nav{
+		display: none;
+	}
+	header div .hero .right{
+		color: var(--pure);
+		margin-left: 0px;
+		margin-top: 0px;
+
+	}
+
+	.hero .right h6 {
+	    font-size: 0.8rem;
+	    color: var(--primary);
+	    padding-top: 500px;
+	    margin-bottom: 0.5rem;
+	}
+	.hero .right h1 {
+	    font-size: 2rem;
+	    font-weight: 100;
+	    line-height: 1;
+	    margin-bottom: 1rem;
+	}
+	.hero .right h1 span {
+	    color: var(--primary);
+	    font-size: 2rem;
+	}
+	.hero .right p{
+		line-height: 1.9;
+		margin-bottom: 2rem;
+	}
+	.hero .right p {
+	    line-height: 1.9;
+	    margin-bottom: 2rem;
+	    font-size: 1rem;
+	}
+	.btn-secondary {
+	    background: transparent;
+	    color: var(--primary);
+	    border-color: var(--primary);
+	    margin-bottom: 110px;
+	}
+	.btn {
+	    padding: 0.5rem 1rem;
+	    font-size: 0.5rem;
+	    font-weight: 600;
+	    border: 2px solid tran;
+	    outline: none;
+	    cursor: pointer;
+	}
 }

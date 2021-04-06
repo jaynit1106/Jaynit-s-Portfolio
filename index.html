@@ -35,10 +35,22 @@
 					{label : 'ALGO'},
 					{label : 'ANDROID STUDIO'},	
 				];
+				var x=window.matchMedia("(max-width: 480px)");
+				var w=600;
+				var h=640;
+				function mobile(x){
+					if(x.matches){
+						w=300;
+						h=320;
+					}
+				}
+				mobile(x);
+				x.addListener(mobile);
+
 				var settings={
 					entries:entries,
-					width:640,
-					height:600,
+					width:w,
+					height:h,
 					radius:'65%',
 					radiusMin:75,
 					bgDraw:true,
@@ -99,7 +111,7 @@
 						<button class="btn btn-primary">Contact</button>
 					</div>
 				</nav>
-				<div class="hero flex items-center">
+				<div class="hero  ">
 					<div id="circle" class="left"> 
 						
 					</div>
