@@ -48,7 +48,7 @@ header{
 	cursor: pointer;
 }
 .drawer img{
-	width: 30px;
+	width: 25px;
 }
 .mobile-nav{
 	position: fixed;
@@ -68,8 +68,8 @@ header{
 }
 .times{
 	position: fixed;
-	top: 30px;
-	right: 30px;
+		
+	padding-left: 285px;
 	border: none;
 	/*background: none;*/
 	outline: none;
@@ -87,7 +87,7 @@ header{
 .mobile-nav ul li a{
 	color: var(--secondary);
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 *{

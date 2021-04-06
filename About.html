@@ -8,12 +8,28 @@
 	<meta http-equip="X-UA compatible" content="ie=edge">
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 		crossorigin="anonymous"> -->
 	<title>About Me</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="./JS/About.js"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./CSS/about.css">
 <body>
 	<div class="main-site">
 		<header>
+			<button id="main-drawer" class="drawer">
+				<img src="./images/hamberger.svg" alt="">
+			</button>
+			<div class="mobile-nav">
+				<button >
+					<img class="times" src="./images/times.svg" alt="">
+				</button>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="#">WORK</a></li>
+				</ul>
+				
+			</div>
 			<div class="container">
 				<nav id="main-nav" class="flex items-center justify-between">
 					<div class="left flex items-center">
