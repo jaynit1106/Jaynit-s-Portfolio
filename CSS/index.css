@@ -9,7 +9,7 @@
 }
 body{
 	font-family: 'Poppins',sans-serif;
-	/*background-color: var(--dark);*/
+	background-color: var(--dark);
 }
 div#circle{
 	position: absolute;
@@ -24,11 +24,7 @@ header{
 
 }
 
-@media(min-width: 1024px){
-	.main-site #main-drawer{
-		display: none;
-	}
-}
+
 
 .main-site{
 	position: relative;
@@ -127,6 +123,61 @@ header nav .left a{
 	margin-right: 2rem;
 	text-decoration: none;
 }
+
+.bottom
+{
+	margin-top: 100px;
+	background-color: var(--dark);
+	margin-bottom: 50px;
+	
+	
+}
+.bottom .footer
+{
+	color:#008B8B;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 300px;
+	text-decoration: none; 
+}
+.bottom .footer-link
+{
+	color:#008B8B;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 50px;
+	text-decoration: none; 
+}
+
+.bottom a:hover
+{
+	color: var(--pure);
+}
+.bottom p
+{
+	margin-left: 310px;
+	color:#008B8B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1024px){
+	.main-site #main-drawer{
+		display: none;
+	}
+}
 @media(max-width: 480px){
 	header #main-nav{
 		display: none;
@@ -176,5 +227,15 @@ header nav .left a{
 	    border: 2px solid tran;
 	    outline: none;
 	    cursor: pointer;
+	}
+	.bottom .footer {
+	    color: #008B8B;
+	    font-family: 'Montserrat', sans-serif;
+	    margin-left: 33px;
+	    text-decoration: none;
+	}
+	.bottom p {
+	    margin-left: 46px;
+	    color: #008B8B;
 	}
 }
