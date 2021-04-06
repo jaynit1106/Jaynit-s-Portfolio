@@ -8,15 +8,14 @@
 	--light:#F2F2F2;
 }
 body{
-	/*background-color: var(--dark);*/
+	
 	font-family: 'Poppins',sans-serif;
+	display: block;
 }
 
 header{
+
 	background-color: var(--dark);
-	/*clip-path: polygon(0 0,100% 0,100% 95%,70% 87%,0 95%);*/
-	/*height: 50vw;
-	width: 100vw;*/
 }
 
 *{
@@ -25,27 +24,16 @@ header{
 	/*box-sizing: border-box;*/
 	-webkit-font-smoothing: antialiased;
 }
-.container{
-	max-width: 1150px;
-	padding: 0 15px;
-	margin: 0 auto;
-	
-}
+
+
 
 .about{
 	background-color: var(--dark);
-	/*border : 1px solid var(--primary);*/
-	/*position: relative;
-	background-size: contain;
-	*/border: none;
+	border: none;
 	outline: none;
-
-	/*margin-top: 20px; */
-	/*margin-left: 30px;*/
-	/*margin-right: 30px;*/
-
 }
 .about img{
+	display: block;
 	top: 0px;
 	width: 350px;
 	overflow: hidden;
@@ -56,17 +44,21 @@ header{
 
 }
 .about h1{
+	display: block;
+	
+	margin-inline-start: 550px;
+	
 	color: var(--primary);
 	font-size: 2rem;
-	/*margin-top: 10px;*/
-	margin-left: 10px;
 	padding-top: 200px;
-	
-	text-align: center;
 }
 .about p{
-	padding-left:  400px;
-	padding-right: 400px;
+	display: block;
+	margin-block-start: 0.67em;
+	/*margin-block-end: 0.67rem;*/
+	margin-inline-start: 100px;
+	margin-inline-end: 100px; 
+
 	color: var(--pure);
 	line-height: 1.9; 
 	font-size: 1.5rem;
@@ -75,21 +67,21 @@ header{
 
 }
 .education{
+
 	position: relative;
 	background-size: contain;
 	background-color: var(--dark);
-	/*margin-left: 30px;*/
-	/*margin-right: 30px;*/
-	/*margin-top: 20px;*/
 }
 .education h1{
+	display: block;
+	font-size: 2rem;
+	margin-inline-start: 550px;
+	margin-block-end:0.67em;
 	color: var(--primary);
 	font-size: 2rem;
-	/*margin-top: 10px;*/
-	padding-left: 0px;
+	
 	padding-top: 100px;
 	
-	text-align: center;
 }
 .education .boy{
 	top: 0px;
@@ -101,24 +93,28 @@ header{
 	border-style: none;
 }
 .education h2{
+	display: block;
+	
+	margin-inline-start: 110px;
 	color: var(--primary);
 	padding-top: 50px;
-	padding-left: 240px;
 }
 
 .education .hat{
-	padding-left: 0px;
-	margin-left: 125px;
-	margin-top: -110px;
+	
+	margin-left: 6px;
+	margin-top: -125px;
 	overflow: hidden;
 	border: none;
 	vertical-align: middle;
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
 }
 .education h3{
+	display: block;
+	
+	margin-inline-start: 110px;
 	color: var(--pure);
-	padding-left: 240px;
 	padding-top: 0;
 }
 .education .edulast{
@@ -127,51 +123,55 @@ header{
 }
 .education .lasthat{
 	padding-left: 0px;
-	margin-left: 125px;
+	margin-left: 6px;
 	margin-top: -520px;
 	overflow: hidden;
 	border: none;
 	vertical-align: middle;
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
 
 }
 .hobbies{
 	position: relative;
 	background-size: contain;
 	background-color: var(--dark);
-	/*margin-left: 30px;*/
-	/*margin-right: 30px;*/
-	/*margin-top: 20px;*/
+	
 }
 .hobbies h1{
+	display: block;
+	
+	margin-inline-start: 550px;
+	margin-block-end:0.67em;
+
 	color: var(--primary);
 	font-size: 2rem;
-	/*margin-top: 10px;*/
 	padding-left: 0px;
 	padding-top: 100px;
 	
-	text-align: center;
+	
 }
 .hobbies .hobby{
 	top: 0px;
 	width: 600px;
 	overflow: hidden;
-	margin-top: 60px;
-	margin-right:20px;
 	float: right;
 	vertical-align: middle;
 	border-style: none;
 
 }
 .hobbies h2{
+	display: block;
+	
+	margin-inline-start: 110px;
 	color: var(--primary);
 	padding-top: 50px;
-	padding-left: 240px;
 }
 .hobbies h3{
+	display: block;
+	
+	margin-inline-start: 110px;
 	color: var(--pure);
-	padding-left: 240px;
 	padding-top: 0;
 
 }
@@ -179,17 +179,17 @@ header{
 	height: 150px;
 	width: 150px;
 	margin-top: -115px;
-	margin-left: 100px;
+	margin-left: -15px;
 }
 .hobbies .popcorn{
-	height: 150px;
-	width: 150px;
-	margin-left: 100px;
+	height: 140px;
+	width: 140px;
+	margin-left: -14px;
 	margin-top: -125px;
 }
 .hobbies .chess{
-	padding-left: 0px;
-	margin-left: 100px;
+	
+	margin-left: -15px;
 	margin-top: -500px;
 	overflow: hidden;
 	border: none;
@@ -199,7 +199,6 @@ header{
 }
 .hobbies .hoblast{
 	color: var(--pure);
-	padding-left: 240px;
 	padding-top: 0;
 	padding-bottom: 200px;
 
@@ -213,173 +212,167 @@ header nav .left a{
 	text-decoration: none;
 }
 
-@media (max-width: 1px){
-	.container nav div{
-		background-color: var(--dark);
-		width: 1150px;
+@media (max-width: 480px){
+	header #main-nav{
+		display: none;
 	}
-	.main-site{
-		width: 375px;
+	.about{
+	background-color: var(--dark);
+	border: none;
+	outline: none;
+	}
+	.about img {
+	    display: block;
+	    top: 0px;
+	    width: 141px;
+	    overflow: hidden;
+	    position: relative;
+	    float: right;
+	    vertical-align: middle;
+	    border-style: none;
+	}
+	.about h1 {
+	    display: block;
+	    margin-inline-start: 80px;
+	    color: var(--primary);
+	    font-size: 1.5rem;
+	    padding-top: 50px;
+	}
+	.about p {
+	    display: block;
+	    margin-block-start: 0.67em;
+	    /* margin-block-end: 0.67rem; */
+	    margin-inline-start: 100px;
+	    margin-inline-end: 100px;
+	    color: var(--pure);
+	    line-height: 1.9;
+	    font-size: 0.5rem;
+	    padding-bottom: 92px;
+	    text-align: center;
 	}
 	.education{
-		width: 1150px;
-		background-color: var(--dark);
+
 		position: relative;
 		background-size: contain;
 		background-color: var(--dark);
-		/*margin-left: 30px;*/
-		/*margin-right: 30px;*/
-		/*margin-top: 20px;*/
+	}
+	.education h1 {
+   	    display: block;
+	    font-size: 1.5rem;
+	    margin-inline-start: 80px;
+	    margin-block-end: 0.67em;
+	    color: var(--primary);
+	    
+	    padding-top: 0px;
+	}
+	.education .boy {
+	    top: 0px;
+	    width: 142px;
+	    overflow: hidden;
+	    float: right;
+	    vertical-align: middle;
+	    border-style: none;
+	}
+	.education h2 {
+	    display: block;
+	    margin-inline-start: 63px;
+	    font-size: 0.7rem;
+	    color: var(--primary);
+	    padding-top: 50px;
+	}
+
+	.education .hat {
+	    margin-left: 6px;
+	    margin-top: -76px;
+	    overflow: hidden;
+	    border: none;
+	    vertical-align: middle;
+	    height: 50px;
+	    width: 50px;
+	}
+	.education h3 {
+	    display: block;
+	    margin-inline-start: 63px;
+	    color: var(--pure);
+	    padding-top: 0;
+	    font-size: 0.5rem;
+	}
+	.education .edulast {
+	    color: var(--primary);
+	    padding-bottom: 0px;
+	}
+	.education .lasthat {
+	    padding-left: 0px;
+	    margin-left: 6px;
+	    margin-top: -73px;
+	    overflow: hidden;
+	    border: none;
+	    vertical-align: middle;
+	    height: 50px;
+	    width: 50px;
 	}
 	.hobbies{
-		width: 1150px;
-		background-color: var(--dark);
 		position: relative;
 		background-size: contain;
 		background-color: var(--dark);
 		
 	}
-	.about{
-		width: 1150px;
-		background-color: var(--dark);
-		position: relative;
-		background-size: contain;
-		border: none;
-		outline: none;
-	}
-
-	.about h1 {
-		width: 375px;
-	    color: var(--primary);
-	    font-size: 2rem;
-	    /* margin-top: 10px; */
-	    margin-left: 10px;
-	    padding-top: 200px;
-	    text-align: center;
-	}
-	.about p {
-		width: 375px;
-	    padding-left: 300px;
-	    padding-right: 300px;
-	    color: var(--pure);
-	    line-height: 1.4;
-	    font-size: 6px;
-	    padding-bottom: 300px;
-	    text-align: center;
-	}
-	.about img {
-	    top: 0px;
-	    width: 250px;
-	    overflow: hidden;
-	    position: relative;
-	    padding-top: 0px;
-	    float: right;
-	    vertical-align: middle;
-	    border-style: none;
-	}
-	.education h1 {
-	    color: var(--primary);
-	    font-size: 2rem;
-	    /* margin-top: 10px; */
-	    padding-left: 0px;
-	    padding-top: 100px;
-	    text-align: center;
-	}
-	.education h2 {
-	    color: var(--primary);
-	    font-size: 7px;
-	    padding-top: 50px;
-	    padding-left: 240px;
-	}
-	.education .hat {
-	    padding-left: 0px;
-	    margin-left: 125px;
-	    margin-top: -184px;
-	    overflow: hidden;
-	    border: none;
-	    vertical-align: middle;
-	    height: 120px;
-	    width: 120px;
-	}
-	.education h3 {
-	    color: var(--pure);
-	    padding-left: 240px;
-	    padding-top: 0;
-	    font-size: 6px;
-	}
-	.education .boy {
-	    top: 0px;
-	    width: 335px;
-	    overflow: hidden;
-	    float: right;
-	    padding-top: 100px;
-	    vertical-align: middle;
-	    border-style: none;
-	}
-	.education .lasthat {
-	    padding-left: 0px;
-	    margin-left: 125px;
-	    margin-top: -549px;
-	    overflow: hidden;
-	    border: none;
-	    vertical-align: middle;
-	    height: 120px;
-	    width: 120px;
-	}
-	.education .edulast {
-	    color: var(--primary);
-	    padding-bottom: 200px;
-	}
 	.hobbies h1 {
+	    display: block;
+	    margin-inline-start: 80px;
+	    margin-block-end: 0.67em;
 	    color: var(--primary);
-	    font-size: 2rem;
-	    /* margin-top: 10px; */
+	    font-size: 1.5rem;
 	    padding-left: 0px;
-	    padding-top: 100px;
-	    text-align: center;
-	}
-	.hobbies h2 {
-	    color: var(--primary);
-	    padding-top: 50px;
-	    padding-left: 240px;
-	    font-size: 11px;
-	}
-	.hobbies h3 {
-	    color: var(--pure);
-	    padding-left: 240px;
-	    padding-top: 0;
-	    font-size: 7px;
-	}
-	.hobbies .game {
-	    height: 150px;
-	    width: 150px;
-	    margin-top: -115px;
-	    margin-left: 100px;
-	}
-	.hobbies .popcorn {
-	    height: 150px;
-	    width: 150px;
-	    margin-left: 90px;
-	    margin-top: -131px;
-	}
-	.hobbies .chess {
-	    padding-left: 0px;
-	    margin-left: 100px;
-	    margin-top: -500px;
-	    overflow: hidden;
-	    border: none;
-	    vertical-align: middle;
-	    height: 150px;
-	    width: 150px;
+	    padding-top: 40px;
 	}
 	.hobbies .hobby {
-	    top: 0px;
-	    width: 335px;
+	    width: 385px;
 	    overflow: hidden;
-	    margin-top: 200px;
-	    margin-right: -2px;
+	    margin-top: -21px;
 	    float: right;
 	    vertical-align: middle;
 	    border-style: none;
 	}
+	.hobbies h2 {
+	    display: block;
+	    margin-inline-start: 63px;
+	    color: var(--primary);
+	    font-size: 1.2rem;
+	    padding-top: 50px;
+	}
+	.hobbies h3 {
+	    display: block;
+	    margin-inline-start: 63px;
+	    color: var(--pure);
+	    font-size: 0.8rem;
+	    padding-top: 0;
+	}
+	.hobbies .game {
+	    height: 100px;
+	    width: 100px;
+	    margin-top: -115px;
+	    margin-left: -15px;
+	}
+	.hobbies .popcorn {
+	    height: 100px;
+	    width: 74px;
+	    margin-left: -3px;
+	    margin-top: -125px;
+	}
+	.hobbies .chess {
+	    margin-left: -15px;
+	    margin-top: -244px;
+	    overflow: hidden;
+	    border: none;
+	    vertical-align: middle;
+	    height: 100px;
+	    width: 100px;
+	}
+	.hobbies .hoblast {
+	    color: var(--pure);
+	    padding-top: 0;
+	    padding-bottom: 69px;
+	}
+	
 }
