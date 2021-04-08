@@ -85,11 +85,39 @@ header{
 		font-size: 1rem;
 	}
 .projects{
-	display: block;
+	display: flex;
 	margin-block-end:12rem;
 }
 .projects .todo img{
 	width: 300px;
+}
+.projects .p2 .todo img{
+	width: 270px;
+	height: 270px;
+}
+.p2{
+	padding-left: 70px;
+	margin-block-start:1rem;
+}
+.p2 .desc{
+	padding-top: 15px; 
+	display: block;
+	margin-inline-start:4.5rem;
+}
+.p2 p{
+	margin-inline-start:3.5rem;
+}
+.p2 .names{
+	display: block;
+	margin-block-start:1rem;
+	margin-inline-start:12rem;
+}
+.p2 .names button{
+	background-color: var(--dark);
+	color: var(--primary);
+	border:ridge;
+	padding: 7px 13px 7px 13px;
+	border-color: var(--primary);
 }
 .todo{
 	display: block;
@@ -205,6 +233,9 @@ header nav .left a{
 	    outline: none;
 	    cursor: pointer;
 	}
+	.projects{
+		display: block;
+	}
 	.todo {
 	    display: block;
 	    margin-inline-start: 2rem;
@@ -218,6 +249,21 @@ header nav .left a{
 	    display: block;
 	    margin-block-start: 1rem;
 	    margin-inline-start: 8.5rem;
+	}
+	.p2 .todo{
+		display: block;
+		margin-inline-start: -1rem;
+	    margin-block-start: 3rem;
+	}
+	.p2 .desc {
+	    padding-top: 15px;
+	    display: block;
+	    margin-inline-start: -3.5rem;
+	}
+	.p2 .names {
+	    display: block;
+	    margin-block-start: 1rem;
+	    margin-inline-start: 4rem;
 	}
 	.bottom .footer {
 	    color: #008B8B;
